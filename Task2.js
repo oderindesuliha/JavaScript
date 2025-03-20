@@ -5,7 +5,7 @@ function getCar(object){
 
     for (let key in car) {
         if (car.hasOwnProperty(key)) {
-            value = car[key];
+            value = car[key];oh
             console.log(`${key}: ${value}`);
         }
     }
