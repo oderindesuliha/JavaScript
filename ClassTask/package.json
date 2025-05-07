@@ -1,0 +1,17 @@
+{
+  "name": "classtask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Task2.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oderindesuliha/JavaScript.git"
+  },
+  "private": true,
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

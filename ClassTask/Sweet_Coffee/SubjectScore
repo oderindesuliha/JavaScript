@@ -1,0 +1,13 @@
+function above80(input){
+    
+    for(let value in input){
+      
+        let sum = (input[value].scores.math + input[value].scores.english)/2
+
+        if(sum > 80){
+            return input[value]
+        } 
+    }
+}
+
+module.exports = above80;

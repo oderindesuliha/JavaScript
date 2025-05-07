@@ -1,0 +1,10 @@
+function arrayValues(subjects){
+    let courses = [];
+    subjects.forEach(subjects => {
+        let objectValues = subjects.id + " " + subjects.subject;
+        courses.push(objectValues)
+    });
+        return courses;
+}
+
+module.exports = arrayValues

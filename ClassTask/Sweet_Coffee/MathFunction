@@ -1,0 +1,24 @@
+function  mathOperations(number1, number2){
+    return{
+        add: ()=>{
+            return number1 + number2
+        },
+        subtract: ()=>{
+            return number1 - number2
+        },
+        multiple:()=>{
+            return number1 * number2
+        },
+        division: ()=>{
+            if(number1 == 0 || number2 == 0){
+                return "Math error"
+            }else{
+                return number1 / number2
+            }
+        }
+
+    }
+
+}
+
+ module.exports = mathOperations;

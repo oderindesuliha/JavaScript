@@ -1,0 +1,11 @@
+function extractPerson(person){
+   
+        let objectValues = person.name + " " + person.age + " " + person.city + " " + person.country;
+        return objectValues;
+
+    }
+    
+
+
+
+module.exports = extractPerson

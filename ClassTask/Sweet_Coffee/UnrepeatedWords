@@ -1,0 +1,22 @@
+function filterUnrepeatedWords(input){
+    const sentence = input.split(" ")
+    let words =[]
+   
+    for(let value of sentence){
+        
+        let number = 0
+        for(let word of sentence){
+            if(word === value){
+                number++
+            }
+        }
+        if (number === 1){
+            words.push(value)
+        }
+    }
+
+    return words
+
+}
+
+module.exports = filterUnrepeatedWords;

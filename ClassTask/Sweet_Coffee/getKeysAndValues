@@ -1,0 +1,5 @@
+function getKeysAndValues(objects){
+    return Object.entries(objects);
+}
+
+module.exports = getKeysAndValues;
